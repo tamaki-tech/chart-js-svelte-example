@@ -36,6 +36,4 @@
   };
 </script>
 
-<div>
-  <Line {data} {options} />
-</div>
+<Line {data} {options} />

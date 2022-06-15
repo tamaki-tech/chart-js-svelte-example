@@ -1,21 +1,25 @@
 <script>
   import LineCharts from "./components/LineCharts.svelte";
+  import PieCharts from "./components/PieCharts.svelte";
 </script>
 
 <main>
-  <h3>Line Charts</h3>
+  <h2>Line Charts</h2>
   <LineCharts />
+
+  <h2>Pie Charts</h2>
+  <PieCharts />
 </main>
 
 <style>
   main {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
   }
 
-  h3 {
+  h2 {
     text-align: center;
   }
 </style>
